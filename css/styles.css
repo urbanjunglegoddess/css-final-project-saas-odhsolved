@@ -1,2 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Use quotes and proper fallback */
+  background-color: #F6F8FA;
+}
+
+body {
+  color: #000;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 5.375rem;
+  padding: 0.625rem 1.875rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
