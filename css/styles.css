@@ -5,7 +5,7 @@
   --pirmary-gray: #677788;
   --primary-white: #F6F8FA;
   --primary-black: #000000;
-  --prmary-dark-blue: #20335B;
+  --primary-dark-blue: #20335B;
   
 }
 
@@ -24,6 +24,25 @@ button {
   color: var(--primary-white);
   background: #2476FF;
   border: none;
+  padding: 0.9375rem 1.5625rem;
+}
+
+.btn-primary {
+  align-items: flex-start;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark-blue);
+}
+
+.btn-secondary {
+  color: var(--pirmary-gray);
+  background: var(--primary-white);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-black);
+  color: var(--primary-white);
 }
 
 a {
@@ -66,12 +85,6 @@ nav ul {
 .logo {
   width: 9.68125rem;
   height: 2.88125rem;
-}
-
-nav div .btn-primary {
-  display: flex;
-  padding: 0.9375rem 1.5625rem;
-  align-items: flex-start;
 }
 
 .menu-icon {
