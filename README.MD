@@ -12,7 +12,7 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 
 ## Standard Requirements
 
-- [ ] Fork the project to your github account
+- [x] Fork the project to your github account
 - [ ] Clone the project to your computer
 - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
