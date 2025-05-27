@@ -240,7 +240,7 @@ nav ul {
 }
 
 .calendar {
-  top: 19.375rem;
+  top: 19.37rem;
   left: 22.75rem;
 }
 
@@ -250,3 +250,18 @@ nav ul {
 }
 
 /*Why Section*/
+.why-section {
+  display: flex;
+  padding: 0 1.875rem 5rem 1.875rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  align-self: stretch;
+}
+
+.why-section .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
