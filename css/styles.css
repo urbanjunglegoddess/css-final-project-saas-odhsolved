@@ -484,12 +484,6 @@ nav ul {
   height: 3.125rem;
 }
 
-.plan-feature-text {
-}
-
-.plan-feature-text h3 {
-}
-
 .plan-feature-text p {
   color: var(--primary-gray);
   font-size: 0.875rem;
@@ -497,16 +491,4 @@ nav ul {
 }
 
 .plan-feature .status {
-}
-
-#feature1 {
-}
-
-#feature2 {
-}
-
-#feature3 {
-}
-
-#feature4 {
 }
