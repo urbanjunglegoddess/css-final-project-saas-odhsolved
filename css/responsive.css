@@ -1,0 +1,166 @@
+@media screen and (min-width: 64rem) {
+  /* Header styles */
+.menu-icon{
+  display: none;
+}
+}
+
+@media screen and (max-width: 63.9rem){
+  width: 100vw;
+  /* Header styles */
+  header {
+    padding: 0.625rem 1.25rem;
+  }
+nav ul, nav div .btn-primary {
+    display: none;
+  }
+/* Hero Section */
+.hero{
+
+}
+
+.left{
+
+}
+.text-wrap{
+
+}
+.hero .cta-buttons{
+
+}
+.right{
+
+}
+.company-logo{
+
+}
+.google{
+
+}
+
+#google-logo{
+
+}
+.google-ads{
+
+}
+#google-ads-logo{
+
+}
+
+.atlassian{
+
+}
+
+#atlassian-logo{
+
+}
+
+.paypal{
+
+}
+
+#paypal-logo{
+
+}
+
+.weaver{
+
+}
+
+#weave-logo{
+
+}
+
+.calendar{
+
+}
+#calendar-logo{
+
+}
+.asana{
+
+}
+#asana-logo{
+
+}
+
+}
+
+@media screen and (max-width: 48.9rem) {
+  /* Header styles */
+  
+  /* Hero Section */
+.hero{
+
+}
+
+.left{
+
+}
+.text-wrap{
+
+}
+.hero .cta-buttons{
+
+}
+.right{
+
+}
+.company-logo{
+
+}
+.google{
+
+}
+
+#google-logo{
+
+}
+.google-ads{
+
+}
+#google-ads-logo{
+
+}
+
+.atlassian{
+
+}
+
+#atlassian-logo{
+
+}
+
+.paypal{
+
+}
+
+#paypal-logo{
+
+}
+
+.weaver{
+
+}
+
+#weave-logo{
+
+}
+
+.calendar{
+
+}
+#calendar-logo{
+
+}
+.asana{
+
+}
+#asana-logo{
+
+}
+
+
+}
+
