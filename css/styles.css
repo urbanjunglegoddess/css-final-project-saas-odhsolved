@@ -48,7 +48,7 @@ button {
 }
 
 .btn-secondary {
-  background: var(--primary-white);
+  background: none;
   color: var(--primary-gray);
   font-weight: 700;
   font-size: 0.875rem;
