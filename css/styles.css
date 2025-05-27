@@ -480,7 +480,7 @@ nav ul {
 .plan-feature-item {
   width: 50%;
   display: flex;
-  padding: 1.25rem;
+  padding: 1rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.25rem;
@@ -508,9 +508,7 @@ nav ul {
   width: 3.75rem;
   height: 1.4375rem;
   color: var(--primary-white);
-  display: flex;
   padding: 0.25rem 0.625rem;
-  align-items: flex-start;
   gap: 0.625rem;
   border-radius: 0.9375rem;
   background: #01C9A7;
