@@ -278,6 +278,12 @@ nav ul {
 }
 
 .why-section p {
+  width: 37.5rem;
+  color: var(--primary-gray);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
 }
 
 .bullet-list {
