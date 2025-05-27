@@ -359,6 +359,8 @@ nav ul {
 
 /*Pricing Section*/
 .pricing-section {
+  height: fit-content;
+  width: 100%;
   display: flex;
   padding-bottom: 7.5rem;
   flex-direction: column;
@@ -469,6 +471,14 @@ nav ul {
   align-self: stretch;
 }
 
+.row-one, .row-two {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
 .plan-feature-item {
   width: 50%;
   display: flex;
@@ -491,4 +501,10 @@ nav ul {
 }
 
 .plan-feature .status {
+  display: flex;
+  padding: 0.25rem 0.625rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.9375rem;
+  background: #01C9A7;
 }
