@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root {
-  --primary-blue: #2476FF;
-  --primary-gray: #677788;
-  --primary-white: #F6F8FA;
-  --primary-black: #000000;
-  --primary-light-blue: #ECF2FF;
-  --primary-dark-blue: #20335B;
-  --bullet-inner: #0066FF;
-  --bullet-wings: #E6E9F2;
-}
-
 /* Base styles */
 * {
 
@@ -205,6 +194,9 @@ nav ul {
 .pricing-section .text-wrapper p {
 }
 
+.plan-feature-list {
+
+}
 .pricing-table {
 
 }
@@ -238,7 +230,6 @@ nav ul {
 
 .plan-card-text {
 }
-
 .plan-card-text span {
 }
 
