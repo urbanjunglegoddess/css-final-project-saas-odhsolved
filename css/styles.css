@@ -270,6 +270,11 @@ nav ul {
 }
 
 .why-section h2 {
+  text-align: center;
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--primary-black);
+  line-height: normal;
 }
 
 .why-section p {
