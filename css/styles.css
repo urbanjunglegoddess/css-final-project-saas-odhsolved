@@ -308,18 +308,6 @@ nav ul {
   flex: 1 0 0;
 }
 
-#bullet-one {
-}
-
-#bullet-two {
-}
-
-#bullet-three {
-}
-
-#bullet-four {
-}
-
 .why-section .bullet .top {
   display: flex;
   align-items: center;
@@ -367,8 +355,54 @@ nav ul {
   flex-shrink: 0;
 }
 
-
-.bullet span {
+/*Pricing Section*/
+.pricing-section {
 }
 
+.pricing-section .text-wrapper {
+}
 
+.pricing-section h2 {
+}
+
+.pricing-section .text-wrapper p {
+}
+
+.features-list {
+}
+
+.plan-card {
+}
+
+.plan-feature-items {
+}
+
+.plan-feature-item {
+}
+
+.plan-feature-img {
+}
+
+.plan-feature-text {
+}
+
+.plan-feature-text h3 {
+}
+
+.plan-feature-text p {
+}
+
+.plan-feature .status {
+}
+
+#feature1 {
+}
+
+#feature2 {
+}
+
+#feature3 {
+}
+
+#feature4 {
+}
