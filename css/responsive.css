@@ -93,7 +93,7 @@ nav ul, nav div .btn-primary {
   /*Why Section*/
   .bullet-list {
     display: flex;
-    padding: 0rem 2.125rem;
+    padding: 0 2.125rem;
     align-items: flex-start;
     align-self: stretch;
   }
