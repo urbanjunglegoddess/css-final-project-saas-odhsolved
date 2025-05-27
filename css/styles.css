@@ -432,13 +432,13 @@ nav ul {
   font-size: 1.25rem;
 }
 
-.plan-divider {
-  display: flex;
-  height: 0.0625rem;
-  padding: 0.625rem;
-  align-items: flex-start;
-  gap: 0.625rem;
-  align-self: stretch;
+.divider {
+display: flex;
+height: 0.0625rem;
+align-items: flex-start;
+align-self: stretch;
+background: #8D8D8D;
+
 }
 
 .plan-card-text {

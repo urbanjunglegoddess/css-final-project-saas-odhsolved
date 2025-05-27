@@ -231,19 +231,12 @@
     align-self: stretch;
   }
   
-  .why-section .bullet .top {
-  }
-  
-  .why-section .bullet .bottom {
-  }
-  
   .bullet .left-wing, .bullet .right-wing {
     display: none;
   } {
 }
   
-  .bullet .top .bullet-circle {
-  }
+
   
   .bullet span {
     font-size: 1rem;
