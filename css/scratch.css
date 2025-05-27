@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --primary-blue: #2476FF;
+  --primary-gray: #677788;
+  --primary-white: #F6F8FA;
+  --primary-black: #000000;
+  --primary-light-blue: #ECF2FF;
+  --primary-dark-blue: #20335B;
+  --bullet-inner: #0066FF;
+  --bullet-wings: #E6E9F2;
+}
+
+/* Base styles */
+* {
+
+}
+
+body {
+
+}
+
+/* Button styles */
+button {
+}
+
+.btn-primary {
+}
+
+.btn-primary:hover {
+}
+
+.btn-secondary {
+}
+
+.btn-secondary:hover {
+}
+
+/* Link styles */
+
+a {
+}
+
+a:hover {
+}
+
+/* Header styles */
+
+header {
+}
+
+nav {
+}
+
+nav ul {
+}
+
+.logo {
+}
+
+.menu-icon {
+}
+
+/* Hero Section */
+
+.hero {
+}
+
+.left {
+}
+
+.text-wrap {
+}
+
+.hero h1 {
+}
+
+.hero p {
+}
+
+.hero .cta-buttons {
+}
+
+.right {
+}
+
+.company-logo {
+}
+
+.google {
+}
+
+.google-ads {
+
+}
+
+.atlassian {
+}
+
+.paypal {
+}
+
+.weave {
+}
+
+.calendar {
+}
+
+.asana {
+
+}
+
+#google-logo {
+}
+
+#google-ads-logo {
+}
+
+#atlassian-logo {
+}
+
+#paypal-logo {
+}
+
+#weave-logo {
+}
+
+#calendar-logo {
+}
+
+#asana-logo {
+
+}
+
+/*Why Section*/
+
+.why-section {
+
+}
+
+.why-section .text-wrapper {
+
+}
+
+.why-section h2 {
+
+}
+
+.why-section p {
+
+}
+
+.bullet-list {
+
+}
+
+.bullet {
+
+}
+
+.why-section .bullet .top {
+
+}
+
+.why-section .bullet .bottom {
+
+}
+
+.bullet .right-wing {
+}
+
+.bullet .left-wing {
+
+}
+
+#bullet-one .left-wing {
+}
+
+#bullet-four .right-wing {
+
+}
+
+.bullet .top .bullet-circle {
+
+}
+
+.bullet .fa-circle {
+
+}
+
+/*Pricing Section*/
+
+.pricing-section {
+
+}
+
+.pricing-section .text-wrapper {
+
+}
+
+.pricing-section h2 {
+
+}
+
+.pricing-section .text-wrapper p {
+}
+
+.pricing-table {
+
+}
+
+.plan-card {
+
+}
+
+.plan-header {
+}
+
+.plan-price {
+
+}
+
+.plan-price span {
+
+}
+
+.plan-price-num {
+}
+
+.plan-price-divide {
+}
+
+.plan-price-len {
+}
+
+.plan-divider {
+}
+
+.plan-card-text {
+}
+
+.plan-card-text span {
+}
+
+#payment-info {
+
+}
+
+.plan-feature-items {
+}
+
+.plan-feature-item {
+
+}
+
+.plan-feature-img {
+}
+
+.plan-feature-img img {
+}
+
+.plan-feature-text {
+}
+
+.plan-feature-text h3 {
+}
+
+.plan-feature-text p {
+}
+
+.plan-feature .status {
+}
+
+#feature1 {
+}
+
+#feature2 {
+}
+
+#feature3 {
+}
+
+#feature4 {
+}

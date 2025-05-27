@@ -1,40 +1,42 @@
 @media screen and (min-width: 64rem) {
   /* Header styles */
-.menu-icon{
-  display: none;
-}
+  .menu-icon {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 63.9rem){
-
+@media screen and (max-width: 63.9rem) {
+  
   /* Header styles */
   header {
     padding: 0.625rem 1.25rem;
   }
-nav ul, nav div .btn-primary {
+  
+  nav ul, nav div .btn-primary {
     display: none;
   }
-/* Hero Section */
-.hero{
-  display: flex;
-  flex-direction: column;
-  gap: 0.625rem;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  height: 40rem;
-}
-
-.left{
-  width: 100%;
-  padding: 0 0 1rem 0;
-  gap: 1.875rem;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 50%;
-}
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 40rem;
+  }
+  
+  .left {
+    width: 100%;
+    padding: 0 0 1rem 0;
+    gap: 1.875rem;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50%;
+  }
   
   .hero .text-wrap h1, .hero .text-wrap p {
     width: 100%;
@@ -43,52 +45,57 @@ nav ul, nav div .btn-primary {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.hero .cta-buttons{
-  justify-content: center;
-  align-content: center;
-}
-.right{
-  width: 100%;
-  height: 50%;
-}
-.company-logo{
-
-}
-.google{
-  top: 0;
-  left: 6.87rem;
+  }
   
-}
-
-.google-ads{
-  top: 13.06rem;
-  left: 16.25rem;
-}
-.atlassian{
-  top: 0;
-  left: 19.81rem;
-}
-
-.paypal{
-  top: 6.19rem;
-  left: 7rem;
-}
+  .hero .cta-buttons {
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .right {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .company-logo {
+  
+  }
+  
+  .google {
+    top: 0;
+    left: 6.87rem;
+    
+  }
+  
+  .google-ads {
+    top: 13.06rem;
+    left: 16.25rem;
+  }
+  
+  .atlassian {
+    top: 0;
+    left: 19.81rem;
+  }
+  
+  .paypal {
+    top: 6.19rem;
+    left: 7rem;
+  }
   
   .weave {
     top: 6.19rem;
     left: 25.88rem;
-}
-
-.calendar{
-  top: 14.31rem;
-  left: 32.31rem;
-}
-
-.asana{
-  top: 0;
-  left: 33.31rem;
-}
+  }
+  
+  .calendar {
+    top: 14.31rem;
+    left: 32.31rem;
+  }
+  
+  .asana {
+    top: 0;
+    left: 33.31rem;
+  }
   
   /*Why Section*/
   .bullet-list {
@@ -164,6 +171,7 @@ nav ul, nav div .btn-primary {
     max-width: 100%;
     align-self: stretch;
   }
+  
   .bullet-list {
     padding: 0 1rem;
     flex-direction: column;
@@ -190,7 +198,7 @@ nav ul, nav div .btn-primary {
   .bullet .left-wing, .bullet .right-wing {
     display: none;
   } {
-  }
+}
   
   .bullet .top .bullet-circle {
   }

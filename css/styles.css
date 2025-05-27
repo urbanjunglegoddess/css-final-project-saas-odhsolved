@@ -117,7 +117,7 @@ nav ul {
   padding: 2.5rem 1.875rem 0 1.875rem;
   align-items: flex-start;
   justify-content: flex-start;
-
+  
 }
 
 .left {
@@ -173,10 +173,10 @@ nav ul {
 }
 
 .company-logo {
-   position: absolute;
+  position: absolute;
   display: flex;
   padding: 1rem;
-  flex-flow:column nowrap;
+  flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
   flex-shrink: 0;
@@ -195,6 +195,7 @@ nav ul {
   background: #FFF;
   box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.25);
 }
+
 .atlassian,
 .paypal,
 .weave,
@@ -222,16 +223,17 @@ nav ul {
   height: 100%;
 }
 
-.google{
+.google {
   top: 0.625rem;
   left: 4rem;
 }
+
 .google-ads {
   top: 18.125rem;
   left: 9.6875rem;
 }
 
-.atlassian{
+.atlassian {
   top: 0.625rem;
   left: 10.9375rem;
 }
@@ -357,27 +359,80 @@ nav ul {
 
 /*Pricing Section*/
 .pricing-section {
+  display: flex;
+  padding-bottom: 7.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.75rem;
+  align-self: stretch;
 }
 
 .pricing-section .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
 }
 
 .pricing-section h2 {
+  font-size: 1.625rem;
+  font-weight: 700;
 }
 
 .pricing-section .text-wrapper p {
+  color: var(--primary-gray);
+  text-align: center;
+  font-size: 1rem;
 }
 
-.features-list {
+.pricing-table {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.875rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  padding: 0 1.875rem;
 }
 
 .plan-card {
+  display: flex;
+  width: 23.125rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.125rem;
+  align-self: stretch;
+  border: 1px solid #E2E2E2;
+  background: #FFF;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
+.plan-price {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4375rem;
+}
+
+.plan-price-num {
+  font-size: 3.125rem;
+}
+
+.plan-price-divide, .plan-price-len {
+  color: var(--primary-gray);
+  font-size: 1.25rem;
+}
 .plan-feature-items {
 }
 
 .plan-feature-item {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex: 1 0 0;
 }
 
 .plan-feature-img {
