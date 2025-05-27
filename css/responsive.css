@@ -6,7 +6,13 @@
 }
 
 @media screen and (max-width: 63.9rem){
-  width: 100vw;
+  body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+  }
   /* Header styles */
   header {
     padding: 0.625rem 1.25rem;
@@ -16,149 +22,118 @@ nav ul, nav div .btn-primary {
   }
 /* Hero Section */
 .hero{
-
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-self: stretch;
+  flex-shrink: 0;
 }
 
 .left{
-
+  width: 100%;
+  padding: 0 0 3.75rem 0;
+  gap: 1.875rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 50%;
 }
-.text-wrap{
-
+  
+  .hero .text-wrap h1, .hero .text-wrap p {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .hero .cta-buttons{
-
+  justify-content: center;
+  align-content: center;
 }
 .right{
-
+  width: 100%;
+  height: 50%;
 }
 .company-logo{
 
 }
 .google{
-
+  top: 0;
+  left: 6.87rem;
+  
 }
 
-#google-logo{
-
-}
 .google-ads{
-
+  top: 13.06rem;
+  left: 16.25rem;
+ 
 }
-#google-ads-logo{
-
-}
-
 .atlassian{
-
-}
-
-#atlassian-logo{
-
+  top: 0;
+  left: 19.81rem;
 }
 
 .paypal{
-
+  top: 6.19rem;
+  left: 7rem;
 }
-
-#paypal-logo{
-
-}
-
-.weaver{
-
-}
-
-#weave-logo{
-
+  
+  .weave {
+    top: 6.19rem;
+    left: 25.88rem;
 }
 
 .calendar{
-
+  top: 14.31rem;
+  left: 32.31rem;
 }
-#calendar-logo{
 
-}
 .asana{
-
-}
-#asana-logo{
-
+  top: 0;
+  left: 33.31rem;
 }
 
 }
 
-@media screen and (max-width: 48.9rem) {
-  /* Header styles */
+@media screen and (max-width: 47.9rem) {
   
   /* Hero Section */
-.hero{
 
-}
-
-.left{
-
-}
-.text-wrap{
-
-}
-.hero .cta-buttons{
-
-}
-.right{
-
-}
-.company-logo{
-
-}
 .google{
-
+  top: 0;
+  left: 0;
 }
 
-#google-logo{
-
-}
 .google-ads{
-
-}
-#google-ads-logo{
-
+  top: 13.06rem;
+  left: 6.62rem;
 }
 
 .atlassian{
-
-}
-
-#atlassian-logo{
-
+  top: 0;
+  left: 7.12rem;
 }
 
 .paypal{
-
+  top: 6.19rem;
+  left: 0;
 }
-
-#paypal-logo{
-
-}
-
-.weaver{
-
-}
-
-#weave-logo{
-
+  
+  .weave {
+    top: 6.19rem;
+    left: 11.5rem;
 }
 
 .calendar{
-
+  top: 13.69rem;
+  left: 14.94rem;
 }
-#calendar-logo{
 
-}
 .asana{
-
-}
-#asana-logo{
-
+  top: 0;
+  left: 15.5rem;
 }
 
 
