@@ -447,6 +447,12 @@ nav ul {
   line-height: 1.5rem;
 }
 
+.plan-card .cta-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
 #payment-info {
   font-size: 0.75rem;
   font-weight: 500;
