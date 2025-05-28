@@ -842,7 +842,7 @@ address {
 }
 
 .footer-links {
-  outline: var(--orange-outline);
+  /* outline: var(--orange-outline); */
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
@@ -852,7 +852,7 @@ address {
 
 .footer-links .row-one,
 .footer-links .row-two {
-  outline: var(--blue-outline);
+  /* outline: var(--blue-outline); */
   flex: 1 0 0;
   display: flex;
   flex-direction: row;
@@ -861,7 +861,7 @@ address {
 }
 .row-one > div,
 .row-two > div {
-  outline: var(--green-outline);
+  /* outline: var(--green-outline); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -870,7 +870,7 @@ address {
 }
 
 .footer-links ul {
-  outline: var(--purple-outline);
+  /* outline: var(--purple-outline); */
   color: var(--primary-gray);
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;

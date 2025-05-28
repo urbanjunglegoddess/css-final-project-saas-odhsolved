@@ -192,7 +192,7 @@
 
   /*Footer*/
   footer {
-    outline: var(--blue-outline);
+    /* outline: var(--blue-outline); */
     padding: 5rem 1.875rem 2.5rem 1.875rem;
     flex-flow: column;
     align-items: flex-start;
@@ -202,7 +202,7 @@
 
   .footer-links .row-one,
   .footer-links .row-two {
-    outline: var(--yellow-outline);
+    /* outline: var(--yellow-outline); */
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -211,7 +211,7 @@
   }
 
   .footer-links {
-    outline: var(--green-outline);
+    /* outline: var(--green-outline); */
     flex-flow: column wrap;
     gap: 0.625rem;
     display: flex;
@@ -222,7 +222,7 @@
   }
 
   .footer-links > div {
-    outline: var(--orange-outline);
+    /* outline: var(--orange-outline); */
     flex-direction: column;
   }
 }
@@ -314,8 +314,8 @@
   }
 
   /*Pricing Section*/
-  .row-one,
-  .row-two {
+  .pricing-section .row-one,
+  .pricing-section .row-two {
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
@@ -418,7 +418,18 @@
     gap: 3.0625rem;
     align-self: stretch;
   }
-  .footer-links > div {
+
+  .footer-links .row-one,
+  .footer-links .row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+  }
+  .row-one > div,
+  .row-two > div {
+    flex-direction: column;
     align-items: center;
     align-self: stretch;
   }
