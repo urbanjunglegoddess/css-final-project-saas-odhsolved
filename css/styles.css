@@ -740,7 +740,7 @@ input[type="text"],
 select,
 .textarea-wrapper,
 textarea {
-  outline: var(--red-outline);
+  /* outline: var(--red-outline); */
   width: 100%;
   font-family: "Open Sans", sans-serif;
 }
