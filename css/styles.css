@@ -416,6 +416,13 @@ nav ul {
   background: #FFF;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 }
+.plan-header{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.875rem;
+align-self: stretch;
+}
 
 .plan-price {
   display: flex;
@@ -436,6 +443,7 @@ nav ul {
 display: flex;
 height: 0.0625rem;
 align-items: flex-start;
+gap: 0.625rem;
 align-self: stretch;
 background: #8D8D8D;
 

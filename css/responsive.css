@@ -233,11 +233,8 @@
   
   .bullet .left-wing, .bullet .right-wing {
     display: none;
-  } {
-}
-  
+  } 
 
-  
   .bullet span {
     font-size: 1rem;
   }

@@ -283,3 +283,36 @@ nav ul {
 
 #feature4 {
 }
+
+/*Hire Us Section*/
+.hire-us-section {
+
+}
+.hire-us .left{}
+.hire-us .left .top{}
+.hire-us-header{}
+.hire-us .divider {}
+.hire-us .left .bottom {}
+.hire-us .testimonial{}
+.hire-us .testimonial span {}
+.hire-us .testimonial-person {}
+.hire-us .testimonial .person {}
+.hire-us .testimonial .person .name {}
+.hire-us .testimonial .person .position {}
+.hire-us .testimonial .person img {}
+
+.hire-us .right {}
+.form{}
+.form-data{}
+.form-intro{}
+.form-group{}
+.input-group{}
+.input-wrapper{}
+label{}
+input[type="text"]{}
+input[type="email"]{}
+
+input[name="first-name"]{}
+input[name="last-name"]{}
+
+/*Footer*/
