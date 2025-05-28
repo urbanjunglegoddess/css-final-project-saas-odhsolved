@@ -119,7 +119,7 @@ nav ul {
   
 }
 
-.left {
+.hero .left {
   width: 50%;
   display: flex;
   flex-flow: column nowrap;
@@ -160,7 +160,7 @@ nav ul {
   align-self: stretch;
 }
 
-.right {
+.hero .right {
   width: 50%;
   position: relative;
   display: flex;
@@ -623,6 +623,7 @@ nav ul {
 }
 
 .hire-us-section .right {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -631,6 +632,7 @@ nav ul {
 }
 
 .form {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   padding: 1.875rem;
   flex-direction: column;
@@ -657,7 +659,7 @@ label {
   line-height: 1.5rem
 }
 
-.input-group {
+.input-group, .select-group {
   width: 24.5rem;
   display: flex;
   flex-flow: row nowrap;
@@ -666,15 +668,28 @@ label {
   gap: 1.25rem;
 }
 
-input {
+input, select {
   border-radius: 0.3125rem;
   border: 1px solid #E6E8F2;
   display: flex;
-  padding: 0.625rem;
+  padding: 0.625rem 1rem 0.625rem 0.625rem;
+  justify-content: space-between;
+  align-items: flex-start;
   flex: 1 0 0;
 }
 
-.input-wrapper, input[type="email"], input[type="text"] {
+.input-wrapper, input[type="email"], input[type="text"], .select-wrapper, select, .textarea-wrapper, textarea {
   width: 100%;
+  font-family: "Open Sans", sans-serif
 }
 
+textarea {;
+  display: flex;
+  width: 24.5rem;
+  height: 9.375rem;
+  padding: 0.625rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  color: #828282;
+  font-size: 0.875rem;
+}
