@@ -15,7 +15,16 @@
   nav div .btn-primary {
     display: none;
   }
-
+  
+  a:hover {
+    color: var(--primary-gray);
+    text-decoration: none;
+  }
+  
+  button:hover {
+    color: var(--primary-white);
+    background-color: var(--primary-blue);
+  }
   /* Hero Section */
   .hero {
     display: flex;
