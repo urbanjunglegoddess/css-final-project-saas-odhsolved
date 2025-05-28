@@ -621,3 +621,60 @@ nav ul {
   border-radius: 1.875rem;
   background: lightgray 50% / cover no-repeat;
 }
+
+.hire-us-section .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex: 1 0 0;
+}
+
+.form {
+  display: flex;
+  padding: 1.875rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.3125rem;
+  align-self: stretch;
+  border-radius: 0.625rem;
+  background: var(--primary-white);
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+label {
+  display: none;
+}
+
+.form-intro {
+  font-weight: 700;
+  line-height: 1.5rem
+}
+
+.input-group {
+  width: 24.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+input {
+  border-radius: 0.3125rem;
+  border: 1px solid #E6E8F2;
+  display: flex;
+  padding: 0.625rem;
+  flex: 1 0 0;
+}
+
+.input-wrapper, input[type="email"], input[type="text"] {
+  width: 100%;
+}
+
