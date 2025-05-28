@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Base styles */
 * {
-
 }
 
 body {
-
 }
 
 /* Button styles */
@@ -80,7 +78,6 @@ nav ul {
 }
 
 .google-ads {
-
 }
 
 .atlassian {
@@ -96,7 +93,6 @@ nav ul {
 }
 
 .asana {
-
 }
 
 #google-logo {
@@ -118,103 +114,82 @@ nav ul {
 }
 
 #asana-logo {
-
 }
 
 /*Why Section*/
 
 .why-section {
-
 }
 
 .why-section .text-wrapper {
-
 }
 
 .why-section h2 {
-
 }
 
 .why-section p {
-
 }
 
 .bullet-list {
-
 }
 
 .bullet {
-
 }
 
 .why-section .bullet .top {
-
 }
 
 .why-section .bullet .bottom {
-
 }
 
 .bullet .right-wing {
 }
 
 .bullet .left-wing {
-
 }
 
 #bullet-one .left-wing {
 }
 
 #bullet-four .right-wing {
-
 }
 
 .bullet .top .bullet-circle {
-
 }
 
 .bullet .fa-circle {
-
 }
 
 /*Pricing Section*/
 
 .pricing-section {
-
 }
 
 .pricing-section .text-wrapper {
-
 }
 
 .pricing-section h2 {
-
 }
 
 .pricing-section .text-wrapper p {
 }
 
 .plan-feature-list {
-
 }
 
 .pricing-table {
-
 }
 
 .plan-card {
-
 }
 
 .plan-header {
 }
 
 .plan-price {
-
 }
 
 .plan-price span {
-
 }
 
 .plan-price-num {
@@ -236,26 +211,21 @@ nav ul {
 }
 
 .plan-card .cta-buttons {
-
 }
 
 #payment-info {
-
 }
 
 .plan-feature-items {
 }
 
 .row-one {
-
 }
 
 .row-two {
-
 }
 
 .plan-feature-item {
-
 }
 
 .plan-feature-img {
@@ -290,7 +260,6 @@ nav ul {
 
 /*Hire Us Section*/
 .hire-us-section {
-
 }
 
 .hire-us-section .left {
@@ -300,11 +269,9 @@ nav ul {
 }
 
 .hire-us-header {
-
 }
 
 .hire-us-header h2 {
-
 }
 
 .hire-us-section .divider {

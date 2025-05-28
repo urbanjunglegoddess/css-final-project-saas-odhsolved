@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --primary-blue: #2476FF;
+  --primary-blue: #2476ff;
   --primary-gray: #677788;
-  --primary-white: #F6F8FA;
+  --primary-white: #f6f8fa;
   --primary-black: #000000;
-  --primary-light-blue: #ECF2FF;
-  --primary-dark-blue: #20335B;
-  --bullet-inner: #0066FF;
-  --bullet-wings: #E6E9F2;
+  --primary-light-blue: #ecf2ff;
+  --primary-dark-blue: #20335b;
+  --bullet-inner: #0066ff;
+  --bullet-wings: #e6e9f2;
 }
 
 /* Base styles */
@@ -26,7 +26,7 @@ body {
   gap: 1rem;
   color: var(--primary-black);
   background-color: var(--primary-white);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Button styles */
@@ -109,14 +109,13 @@ nav ul {
 
 /* Hero Section */
 .hero {
-  background-image: url('../assets/bg/background-top.svg');
+  background-image: url("../assets/bg/background-top.svg");
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
   padding: 2.5rem 1.875rem 0 1.875rem;
   align-items: flex-start;
   justify-content: flex-start;
-  
 }
 
 .hero .left {
@@ -132,8 +131,7 @@ nav ul {
 }
 
 .text-wrap {
-  gap: .69rem;
-  
+  gap: 0.69rem;
 }
 
 .hero h1 {
@@ -141,8 +139,6 @@ nav ul {
   align-self: stretch;
   font-size: 2.5rem;
   font-weight: 500;
-  
-  
 }
 
 .hero p {
@@ -191,7 +187,7 @@ nav ul {
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 1.875rem;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -207,7 +203,7 @@ nav ul {
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 2.5rem;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -325,13 +321,15 @@ nav ul {
   align-self: stretch;
 }
 
-.bullet .right-wing, .bullet .left-wing {
+.bullet .right-wing,
+.bullet .left-wing {
   height: 0.0625rem;
   flex: 1 0 0;
   background: var(--bullet-wings);
 }
 
-#bullet-one .left-wing, #bullet-four .right-wing {
+#bullet-one .left-wing,
+#bullet-four .right-wing {
   background: none;
 }
 
@@ -388,7 +386,7 @@ nav ul {
 
 .plan-feature-list {
   display: flex;
-  
+
   padding: 0 1.875rem;
   align-items: flex-start;
   gap: 1.875rem;
@@ -412,8 +410,8 @@ nav ul {
   align-items: flex-start;
   gap: 3.125rem;
   align-self: stretch;
-  border: 1px solid #E2E2E2;
-  background: #FFF;
+  border: 1px solid #e2e2e2;
+  background: #fff;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -435,7 +433,8 @@ nav ul {
   font-size: 3.125rem;
 }
 
-.plan-price-divide, .plan-price-len {
+.plan-price-divide,
+.plan-price-len {
   color: var(--primary-gray);
   font-size: 1.25rem;
 }
@@ -446,8 +445,7 @@ nav ul {
   align-items: flex-start;
   gap: 0.625rem;
   align-self: stretch;
-  background: #8D8D8D;
-  
+  background: #8d8d8d;
 }
 
 .plan-card-text {
@@ -479,7 +477,8 @@ nav ul {
   align-self: stretch;
 }
 
-.row-one, .row-two {
+.row-one,
+.row-two {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
@@ -522,7 +521,7 @@ nav ul {
   padding: 0.25rem 0.625rem;
   gap: 0.625rem;
   border-radius: 0.9375rem;
-  background: #01C9A7;
+  background: #01c9a7;
 }
 
 /*Hire Us Section*/
@@ -656,10 +655,11 @@ label {
 
 .form-intro {
   font-weight: 700;
-  line-height: 1.5rem
+  line-height: 1.5rem;
 }
 
-.input-group, .select-group {
+.input-group,
+.select-group {
   width: 24.5rem;
   display: flex;
   flex-flow: row nowrap;
@@ -668,9 +668,10 @@ label {
   gap: 1.25rem;
 }
 
-input:placeholder-shown, select {
+input:placeholder-shown,
+select {
   border-radius: 0.3125rem;
-  border: 1px solid #E6E8F2;
+  border: 1px solid #e6e8f2;
   display: flex;
   padding: 0.625rem 1rem 0.625rem 0.625rem;
   justify-content: space-between;
@@ -678,12 +679,18 @@ input:placeholder-shown, select {
   flex: 1 0 0;
 }
 
-.input-wrapper, input[type="email"], input[type="text"], .select-wrapper, select, .textarea-wrapper, textarea {
+.input-wrapper,
+input[type="email"],
+input[type="text"],
+.select-wrapper,
+select,
+.textarea-wrapper,
+textarea {
   width: 100%;
-  font-family: "Open Sans", sans-serif
+  font-family: "Open Sans", sans-serif;
 }
 
-textarea {;
+textarea {
   display: flex;
   width: 24.5rem;
   height: 9.375rem;
@@ -693,7 +700,7 @@ textarea {;
   color: #828282;
   font-size: 0.875rem;
   border-radius: 0.3125rem;
-  border: 1px solid #E6E8F2;
+  border: 1px solid #e6e8f2;
 }
 
 input[type="checkbox"] {
@@ -734,4 +741,3 @@ input[type="checkbox"] {
   align-items: center;
   gap: 1.5rem;
 }
-
