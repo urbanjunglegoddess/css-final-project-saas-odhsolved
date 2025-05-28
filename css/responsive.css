@@ -1,11 +1,11 @@
-@media screen and (min-width: 64rem) {
+@media (min-width: 64rem) {
   /* Header styles */
   .menu-icon {
     display: none;
   }
 }
 
-@media screen and (max-width: 63.9rem) {
+@media (max-width: 63.9rem) {
   /* Header styles */
   header {
     padding: 0.625rem 1.25rem;
@@ -225,7 +225,6 @@
     gap: 0.625rem;
     display: flex;
     align-items: flex-start;
-    gap: 3.0625rem;
     flex: 1 0 0;
     align-self: stretch;
   }
