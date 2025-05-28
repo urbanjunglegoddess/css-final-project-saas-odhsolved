@@ -388,7 +388,7 @@ nav ul {
 
 .plan-feature-list {
   display: flex;
-
+  
   padding: 0 1.875rem;
   align-items: flex-start;
   gap: 1.875rem;
@@ -416,12 +416,13 @@ nav ul {
   background: #FFF;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 }
-.plan-header{
+
+.plan-header {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 1.875rem;
-align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  align-self: stretch;
 }
 
 .plan-price {
@@ -440,13 +441,13 @@ align-self: stretch;
 }
 
 .divider {
-display: flex;
-height: 0.0625rem;
-align-items: flex-start;
-gap: 0.625rem;
-align-self: stretch;
-background: #8D8D8D;
-
+  display: flex;
+  height: 0.0625rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+  background: #8D8D8D;
+  
 }
 
 .plan-card-text {
@@ -461,6 +462,7 @@ background: #8D8D8D;
   align-items: center;
   gap: 0.625rem;
 }
+
 #payment-info {
   font-size: 0.75rem;
   font-weight: 500;
@@ -485,6 +487,7 @@ background: #8D8D8D;
   align-items: center;
   gap: 0.625rem;
 }
+
 .plan-feature-item {
   width: 50%;
   display: flex;
@@ -520,4 +523,46 @@ background: #8D8D8D;
   gap: 0.625rem;
   border-radius: 0.9375rem;
   background: #01C9A7;
+}
+
+/*Hire Us Section*/
+.hire-us-section {
+  display: flex;
+  padding: 1.875rem;
+  align-self: stretch;
+  background: var(--primary-dark-blue);
+}
+
+.hire-us .left {
+  display: flex;
+  padding-left: 4.375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.75rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.hire-us .left .top {
+  display: flex;
+  width: 23.125rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.125rem;
+}
+
+.hire-us-header {
+  display: flex;
+  width: 23.125rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.125rem;
+}
+
+.hire-us .divider {
+  height: 0.0625rem;
+  align-self: stretch;
 }
