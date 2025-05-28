@@ -293,45 +293,48 @@ nav ul {
 
 }
 
-.hire-us .left {
+.hire-us-section .left {
 }
 
-.hire-us .left .top {
+.hire-us-section .left .top {
 }
 
 .hire-us-header {
 
 }
 
-.hire-us .divider {
-}
-
-.hire-us .left .bottom {
+.hire-us-header h2 {
 
 }
 
-.hire-us .testimonial {
+.hire-us-section .divider {
 }
 
-.hire-us .testimonial span {
+.hire-us-section .left .bottom {
 }
 
-.hire-us .testimonial-person {
+.hire-us-section .testimonial {
 }
 
-.hire-us .testimonial .person {
+.hire-us-section .testimonial span {
 }
 
-.hire-us .testimonial .person .name {
+.hire-us-section .testimonial-person {
 }
 
-.hire-us .testimonial .person .position {
+.hire-us-section .testimonial .person {
 }
 
-.hire-us .testimonial .person img {
+.hire-us-section .testimonial .person .name {
 }
 
-.hire-us .right {
+.hire-us-section .testimonial .person .position {
+}
+
+.hire-us-section .testimonial .person img {
+}
+
+.hire-us-section .right {
 }
 
 .form {

@@ -533,10 +533,11 @@ nav ul {
   background: var(--primary-dark-blue);
 }
 
-.hire-us .left {
+.hire-us-section .left {
+  width: 100%;
   display: flex;
-  padding-left: 4.375rem;
-  flex-direction: column;
+  padding: 0 0 0 4.375rem;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
   gap: 3.75rem;
@@ -544,7 +545,7 @@ nav ul {
   align-self: stretch;
 }
 
-.hire-us .left .top {
+.hire-us-section .left .top {
   display: flex;
   width: 23.125rem;
   flex-direction: column;
@@ -562,7 +563,50 @@ nav ul {
   gap: 2.125rem;
 }
 
-.hire-us .divider {
+.hire-us-header h2 {
+  color: var(--primary-white);
+  font-weight: 700;
+  line-height: normal;
+  font-size: 1.625rem;
+}
+
+.hire-us-header p {
+  align-self: stretch;
+  color: var(--primary-gray);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.hire-us-section .divider {
   height: 0.0625rem;
   align-self: stretch;
+  background: var(--primary-white);
+}
+
+.testimonial {
+  color: var(--primary-white);
+  font-style: italic;
+}
+
+.hire-us-section .left .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.person {
+  display: flex;
+  padding-right: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+
+.name {
+  color: var(--primary-white);
+  font-size: 1.125rem;
+  font-weight: 700;
 }
