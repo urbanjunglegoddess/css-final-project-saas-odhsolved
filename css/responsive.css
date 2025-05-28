@@ -62,7 +62,12 @@
     color: var(--primary-blue);
     text-decoration: underline;
   }
-
+  
+  .plan-card:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-0.125rem);
+  }
+  
 }
 
 @media (max-width: 63.9rem) {
