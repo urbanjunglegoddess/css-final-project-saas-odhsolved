@@ -153,6 +153,8 @@
   }
 
   .hire-us-section .left {
+    display: flex;
+    justify-content: space-between;
     flex-flow: row;
     padding: 2.5rem 1.875rem 1.25rem 1.875rem;
     gap: 3.75rem;
@@ -164,6 +166,35 @@
 
   .hire-us-section .bottom {
     flex: 1;
+  }
+
+  /*Footer*/
+  footer {
+    outline: var(--blue-outline);
+    padding: 5rem 1.875rem 2.5rem 1.875rem;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
+  }
+  .footer-info {
+    outline: var(--yellow-outline);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-self: stretch;
+  }
+
+  .footer-links {
+    outline: var(--green-outline);
+    flex-flow: row wrap;
+    gap: 0.625rem;
+  }
+
+  .footer-links > div {
+    outline: var(--orange-outline);
+    flex-direction: column;
   }
 }
 
