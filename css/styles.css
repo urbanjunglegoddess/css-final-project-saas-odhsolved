@@ -812,7 +812,7 @@ input[type="checkbox"] {
 
 /*Footer*/
 footer {
-  outline: var(--green-outline);
+  /* outline: var(--green-outline); */
   display: flex;
   padding: 2.5rem 1.875rem;
   flex-direction: column;
@@ -821,7 +821,7 @@ footer {
   align-self: stretch;
 }
 .footer-info {
-  outline: var(--blue-outline);
+  /* outline: var(--blue-outline); */
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -829,7 +829,7 @@ footer {
   align-self: stretch;
 }
 .contact {
-  outline: var(--red-outline);
+  /* outline: var(--red-outline); */
 }
 .contact-info {
 }
@@ -842,7 +842,7 @@ address {
 .company {
 }
 .footer-links {
-  outline: var(--orange-outline);
+  /* outline: var(--orange-outline); */
   display: flex;
   align-items: flex-start;
   gap: 3.0625rem;
@@ -851,10 +851,22 @@ address {
 }
 
 footer ul {
-  outline: var(--purple-outline);
+  /* outline: var(--purple-outline); */
   color: var(--primary-gray);
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   font-weight: 510;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+footer ul li {
+  /* outline: var(--green-outline); */
+}
+footer .status {
+  /* outline: var(--yellow-outline); */
+  font-size: 0.5rem;
+  font-weight: 510;
 }
