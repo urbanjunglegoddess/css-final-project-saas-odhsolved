@@ -148,7 +148,6 @@ nav ul {
 }
 
 .text-wrap {
-  
   gap: 0.69rem;
 }
 
@@ -189,7 +188,7 @@ nav ul {
 }
 
 .company-logo {
-  outline: solid .1rem red;
+  outline: solid 0.1rem red;
   position: absolute;
   display: flex;
   padding: 1rem;
@@ -809,4 +808,24 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+}
+
+/*Footer*/
+footer {
+}
+.footer-info {
+}
+.contact {
+}
+.contact-info {
+}
+.address {
+}
+address {
+}
+.phone {
+}
+.company {
+}
+footer ul {
 }
