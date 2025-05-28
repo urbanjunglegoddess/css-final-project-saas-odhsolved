@@ -152,7 +152,7 @@ nav ul {
 }
 
 .hero h1 {
-  outline: var(--blue-outline);
+  /* outline: var(--blue-outline); */
   width: 55%;
   align-self: stretch;
   font-size: 2.5rem;
@@ -160,7 +160,7 @@ nav ul {
 }
 
 .hero p {
-  outline: var(--blue-outline);
+  /* outline: var(--blue-outline); */
   color: var(--primary-gray);
   font-size: 0.875rem;
   line-height: 1.5;
@@ -176,7 +176,7 @@ nav ul {
 }
 
 .hero .right {
-  outline: var(--green-outline);
+  /* outline: var(--green-outline); */
   width: 50%;
   position: relative;
   display: flex;
@@ -188,7 +188,7 @@ nav ul {
 }
 
 .company-logo {
-  outline: solid 0.1rem red;
+  /* outline: var(--red-outline); */
   position: absolute;
   display: flex;
   padding: 1rem;
@@ -520,8 +520,8 @@ nav ul {
   align-self: stretch;
 }
 
-.row-one,
-.row-two {
+.pricing-section .row-one,
+.pricing-section .row-two {
   /* outline: var(--blue-outline); */
   display: flex;
   width: 100%;
@@ -844,22 +844,29 @@ address {
 .footer-links {
   /* outline: var(--orange-outline); */
   display: flex;
-  align-items: flex-start;
-  gap: 3.0625rem;
+  flex-flow: row;
+  width: 100%;
   flex: 1 0 0;
   align-self: stretch;
 }
 
-.footer-links > div {
-  /* outline: var(--blue-outline); */
+.footer-links .row-one,
+.footer-links .row-two {
+  outline: var(--blue-outline);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  gap: 1.25rem;
 }
 
-footer ul {
-  /* outline: var(--purple-outline); */
+/* .footer-links > div {
+  outline: var(--green-outline);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+} */
+
+.footer-links ul {
+  outline: var(--purple-outline);
   color: var(--primary-gray);
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;

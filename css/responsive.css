@@ -199,7 +199,9 @@
     gap: 2.5rem;
     align-self: stretch;
   }
-  .footer-info {
+
+  .footer-links .row-one,
+  .footer-links .row-two {
     outline: var(--yellow-outline);
     display: flex;
     align-items: flex-start;
@@ -210,8 +212,13 @@
 
   .footer-links {
     outline: var(--green-outline);
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     gap: 0.625rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 3.0625rem;
+    flex: 1 0 0;
+    align-self: stretch;
   }
 
   .footer-links > div {
