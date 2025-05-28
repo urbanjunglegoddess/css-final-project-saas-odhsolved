@@ -812,10 +812,24 @@ input[type="checkbox"] {
 
 /*Footer*/
 footer {
+  outline: var(--green-outline);
+  display: flex;
+  padding: 2.5rem 1.875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+  align-self: stretch;
 }
 .footer-info {
+  outline: var(--blue-outline);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-self: stretch;
 }
 .contact {
+  outline: var(--red-outline);
 }
 .contact-info {
 }
@@ -827,5 +841,20 @@ address {
 }
 .company {
 }
+.footer-links {
+  outline: var(--orange-outline);
+  display: flex;
+  align-items: flex-start;
+  gap: 3.0625rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
 footer ul {
+  outline: var(--purple-outline);
+  color: var(--primary-gray);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 510;
+  list-style-type: none;
 }
