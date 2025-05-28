@@ -53,9 +53,6 @@ button {
   font-size: 0.75rem;
 }
 
-.btn-primary:hover {
-  background: var(--primary-dark-blue);
-}
 
 .btn-secondary {
   background: none;
@@ -64,20 +61,12 @@ button {
   font-size: 0.875rem;
 }
 
-.btn-secondary:hover {
-  color: var(--primary-blue);
-}
 
 /* Link styles */
 a {
   /* outline: var(--red-outline); */
   color: var(--primary-gray);
   text-decoration: none;
-}
-
-a:hover {
-  color: var(--primary-blue);
-  text-decoration: underline;
 }
 
 /* Header styles */
