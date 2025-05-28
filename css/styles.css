@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
+  /* Color Variables */
   --primary-blue: #2476ff;
   --primary-gray: #677788;
   --primary-white: #f6f8fa;
@@ -9,6 +10,13 @@
   --primary-dark-blue: #20335b;
   --bullet-inner: #0066ff;
   --bullet-wings: #e6e9f2;
+  /*Outline Variables*/
+  --red-outline: solid 0.1rem red;
+  --green-outline: solid 0.1rem lawngreen;
+  --blue-outline: solid 0.1rem blue;
+  --orange-outline: solid 0.1rem orange;
+  --yellow-outline: solid 0.1rem yellow;
+  --purple-outline: solid 0.1rem purple;
 }
 
 /* Base styles */
@@ -31,6 +39,7 @@ body {
 
 /* Button styles */
 button {
+  outline: var(--red-outline);
   border-radius: 1.875rem;
   border: none;
   padding: 0.9375rem 1.5625rem;
@@ -62,6 +71,7 @@ button {
 
 /* Link styles */
 a {
+  outline: var(--red-outline);
   color: var(--primary-gray);
   text-decoration: none;
 }
@@ -73,6 +83,7 @@ a:hover {
 
 /* Header styles */
 header {
+  outline: var(--purple-outline);
   background-color: var(--primary-white);
   display: flex;
   width: 100%;
@@ -82,6 +93,7 @@ header {
 }
 
 nav {
+  outline: var(--red-outline);
   display: flex;
   padding: 0.375rem 0.875rem;
   align-items: center;
@@ -89,6 +101,7 @@ nav {
 }
 
 nav ul {
+  outline: var(--yellow-outline);
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -97,11 +110,13 @@ nav ul {
 }
 
 .logo {
+  outline: var(--purple-outline);
   width: 9.68125rem;
   height: 2.88125rem;
 }
 
 .menu-icon {
+  outline: var(--green-outline);
   width: 18px;
   height: 20px;
   position: relative;
@@ -109,6 +124,7 @@ nav ul {
 
 /* Hero Section */
 .hero {
+  outline: var(--orange-outline);
   background-image: url("../assets/bg/background-top.svg");
   display: flex;
   flex-flow: row nowrap;
@@ -119,6 +135,7 @@ nav ul {
 }
 
 .hero .left {
+  outline: var(--blue-outline);
   width: 50%;
   display: flex;
   flex-flow: column nowrap;
@@ -131,10 +148,12 @@ nav ul {
 }
 
 .text-wrap {
+  
   gap: 0.69rem;
 }
 
 .hero h1 {
+  outline: var(--blue-outline);
   width: 55%;
   align-self: stretch;
   font-size: 2.5rem;
@@ -142,6 +161,7 @@ nav ul {
 }
 
 .hero p {
+  outline: var(--blue-outline);
   color: var(--primary-gray);
   font-size: 0.875rem;
   line-height: 1.5;
@@ -157,6 +177,7 @@ nav ul {
 }
 
 .hero .right {
+  outline: var(--green-outline);
   width: 50%;
   position: relative;
   display: flex;
@@ -168,6 +189,7 @@ nav ul {
 }
 
 .company-logo {
+  outline: solid .1rem red;
   position: absolute;
   display: flex;
   padding: 1rem;
@@ -255,6 +277,7 @@ nav ul {
 
 /*Why Section*/
 .why-section {
+  outline: var(--orange-outline);
   display: flex;
   padding: 0 1.875rem 5rem 1.875rem;
   flex-direction: column;
@@ -264,6 +287,7 @@ nav ul {
 }
 
 .why-section .text-wrapper {
+  outline: var(--blue-outline);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,6 +295,7 @@ nav ul {
 }
 
 .why-section h2 {
+  outline: var(--green-outline);
   text-align: center;
   font-size: 1.625rem;
   font-weight: 700;
@@ -279,6 +304,7 @@ nav ul {
 }
 
 .why-section p {
+  outline: var(--yellow-outline);
   width: 37.5rem;
   color: var(--primary-gray);
   text-align: center;
@@ -288,6 +314,7 @@ nav ul {
 }
 
 .bullet-list {
+  outline: var(--purple-outline);
   display: flex;
   padding: 0 2.125rem;
   justify-content: space-between;
@@ -296,6 +323,7 @@ nav ul {
 }
 
 .bullet {
+  outline: var(--red-outline);
   display: flex;
   padding: 1.625rem 0;
   flex-direction: column;
@@ -306,6 +334,7 @@ nav ul {
 }
 
 .why-section .bullet .top {
+  outline: var(--blue-outline);
   display: flex;
   align-items: center;
   gap: 0.25rem;
@@ -313,6 +342,7 @@ nav ul {
 }
 
 .why-section .bullet .bottom {
+  outline: var(--green-outline);
   display: flex;
   padding: 0 0.625rem;
   justify-content: center;
@@ -323,6 +353,7 @@ nav ul {
 
 .bullet .right-wing,
 .bullet .left-wing {
+  outline: var(--red-outline);
   height: 0.0625rem;
   flex: 1 0 0;
   background: var(--bullet-wings);
@@ -330,10 +361,12 @@ nav ul {
 
 #bullet-one .left-wing,
 #bullet-four .right-wing {
+  outline: var(--orange-outline);
   background: none;
 }
 
 .bullet .top .bullet-circle {
+  outline: var(--yellow-outline);
   display: flex;
   width: 3.125rem;
   height: 3.125rem;
@@ -347,6 +380,7 @@ nav ul {
 }
 
 .bullet .fa-circle {
+  outline: var(--purple-outline);
   background: var(--bullet-inner);
   width: 0.375rem;
   height: 0.375rem;
@@ -356,6 +390,7 @@ nav ul {
 
 /*Pricing Section*/
 .pricing-section {
+  outline: var(--orange-outline);
   width: 100%;
   display: flex;
   padding-bottom: 7.5rem;
@@ -366,6 +401,7 @@ nav ul {
 }
 
 .pricing-section .text-wrapper {
+  outline: var(--blue-outline);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,19 +410,21 @@ nav ul {
 }
 
 .pricing-section h2 {
+  outline: var(--green-outline);
   font-size: 1.625rem;
   font-weight: 700;
 }
 
 .pricing-section .text-wrapper p {
+  outline: var(--yellow-outline);
   color: var(--primary-gray);
   text-align: center;
   font-size: 1rem;
 }
 
 .plan-feature-list {
+  outline: var(--purple-outline);
   display: flex;
-
   padding: 0 1.875rem;
   align-items: flex-start;
   gap: 1.875rem;
@@ -394,6 +432,7 @@ nav ul {
 }
 
 .pricing-table {
+  outline: var(--red-outline);
   display: flex;
   align-items: flex-start;
   gap: 1.875rem;
@@ -402,6 +441,7 @@ nav ul {
 }
 
 .plan-card {
+  outline: var(--blue-outline);
   display: flex;
   width: 23.125rem;
   padding: 2.5rem;
@@ -416,6 +456,7 @@ nav ul {
 }
 
 .plan-header {
+  outline: var(--green-outline);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -440,6 +481,7 @@ nav ul {
 }
 
 .divider {
+  outline: var(--yellow-outline);
   display: flex;
   height: 0.0625rem;
   align-items: flex-start;
@@ -449,6 +491,7 @@ nav ul {
 }
 
 .plan-card-text {
+  outline: var(--purple-outline);
   color: var(--primary-gray);
   font-size: 1rem;
   line-height: 1.5rem;
@@ -469,6 +512,7 @@ nav ul {
 }
 
 .plan-feature-items {
+  outline: var(--red-outline);
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
@@ -479,6 +523,7 @@ nav ul {
 
 .row-one,
 .row-two {
+  outline: var(--blue-outline);
   display: flex;
   width: 100%;
   flex-flow: row wrap;
@@ -488,6 +533,7 @@ nav ul {
 }
 
 .plan-feature-item {
+  outline: var(--green-outline);
   width: 50%;
   display: flex;
   padding: 1rem;
@@ -498,17 +544,20 @@ nav ul {
 }
 
 .plan-feature-img img {
+  outline: var(--yellow-outline);
   width: 3.125rem;
   height: 3.125rem;
 }
 
 .plan-feature-text p {
+  outline: var(--purple-outline);
   color: var(--primary-gray);
   font-size: 0.875rem;
   line-height: 1.375rem;
 }
 
 .feature-item-header {
+  outline: var(--red-outline);
   display: flex;
   align-items: center;
   gap: 0.625rem;
@@ -526,6 +575,7 @@ nav ul {
 
 /*Hire Us Section*/
 .hire-us-section {
+  outline: var(--orange-outline);
   display: flex;
   padding: 1.875rem;
   align-self: stretch;
@@ -533,10 +583,10 @@ nav ul {
 }
 
 .hire-us-section .left {
-  width: 100%;
+  outline: var(--blue-outline);
   display: flex;
   padding: 0 0 0 4.375rem;
-  flex-flow: column nowrap;
+  flex-flow: column;
   justify-content: center;
   align-items: flex-start;
   gap: 3.75rem;
@@ -544,7 +594,8 @@ nav ul {
   align-self: stretch;
 }
 
-.hire-us-section .left .top {
+.hire-us-section .top {
+  outline: var(--green-outline);
   display: flex;
   width: 23.125rem;
   flex-direction: column;
@@ -554,6 +605,7 @@ nav ul {
 }
 
 .hire-us-header {
+  outline: var(--green-outline);
   display: flex;
   width: 23.125rem;
   flex-direction: column;
@@ -563,6 +615,7 @@ nav ul {
 }
 
 .hire-us-header h2 {
+  outline: var(--red-outline);
   color: var(--primary-white);
   font-weight: 700;
   line-height: normal;
@@ -570,6 +623,7 @@ nav ul {
 }
 
 .hire-us-header p {
+  outline: var(--yellow-outline);
   align-self: stretch;
   color: var(--primary-gray);
   font-size: 1rem;
@@ -583,11 +637,13 @@ nav ul {
 }
 
 .testimonial {
+  outline: var(--purple-outline);
   color: var(--primary-white);
   font-style: italic;
 }
 
 .hire-us-section .bottom {
+  outline: var(--red-outline);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -604,17 +660,20 @@ nav ul {
 /*}*/
 
 .name {
+  outline: var(--blue-outline);
   color: var(--primary-white);
   font-size: 1.125rem;
   font-weight: 700;
 }
 
 .position {
+  outline: var(--orange-outline);
   color: var(--primary-gray);
   font-size: 0.875rem;
 }
 
 .person-image img {
+  outline: var(--green-outline);
   width: 3.75rem;
   height: 3.75rem;
   border-radius: 1.875rem;
@@ -622,6 +681,7 @@ nav ul {
 }
 
 .hire-us-section .right {
+  outline: var(--yellow-outline);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -631,6 +691,7 @@ nav ul {
 }
 
 .form {
+  outline: var(--red-outline);
   font-family: "Open Sans", sans-serif;
   display: flex;
   padding: 1.875rem;
@@ -643,6 +704,7 @@ nav ul {
 }
 
 .form-data {
+  outline: var(--blue-outline);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -654,12 +716,14 @@ label {
 }
 
 .form-intro {
+  outline: var(--green-outline);
   font-weight: 700;
   line-height: 1.5rem;
 }
 
 .input-group,
 .select-group {
+  outline: var(--yellow-outline);
   width: 24.5rem;
   display: flex;
   flex-flow: row nowrap;
@@ -686,6 +750,7 @@ input[type="text"],
 select,
 .textarea-wrapper,
 textarea {
+  outline: var(--red-outline);
   width: 100%;
   font-family: "Open Sans", sans-serif;
 }
@@ -704,11 +769,13 @@ textarea {
 }
 
 input[type="checkbox"] {
+  outline: var(--orange-outline);
   width: 1.5625rem;
   height: 1.5rem;
 }
 
 .checkbox-group {
+  outline: var(--blue-outline);
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -719,6 +786,7 @@ input[type="checkbox"] {
 }
 
 .email-checkbox {
+  outline: var(--green-outline);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -735,6 +803,7 @@ input[type="checkbox"] {
 }
 
 .form-actions {
+  outline: var(--yellow-outline);
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
