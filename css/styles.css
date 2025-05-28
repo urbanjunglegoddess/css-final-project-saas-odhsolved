@@ -65,8 +65,7 @@ button {
 }
 
 .btn-secondary:hover {
-  background: var(--primary-black);
-  color: var(--primary-white);
+  color: var(--primary-blue);
 }
 
 /* Link styles */
@@ -798,6 +797,16 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+}
+
+.privacy-links {
+  /* outline: var(--purple-outline); */
+  display: flex;
+  width: 100%;
+  padding: 0.625rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /*Footer*/
